@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Chalkboard;
+    src: url(Chalkboard.ttf);
+}
+
+.nav {
+    font-size: medium;
+    padding: 10px;
+    background-color: deepskyblue;
+    font-family: Chalkboard;
+    color: white;
+    width: 150px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+iframe {
+    width: 0.8%;
+}
+
+.nav:hover {
+    background-color: darkcyan;
+}
+
+.main {
+    margin-top: 150px;
+    top: 400px;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: green;
+    height: 100px;
+    width: 98%;
+    /*padding: 10px;*/
+    padding-right: 10px;
+    padding-left: 10px;
+    position: fixed;
+}
+
+html {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: gold;
+}
+
+.article {
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.title {
+    color: whitesmoke;
+    font-family: Chalkboard;
+}
+
+.head_nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.head_nav_li {
+    display: inline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    background-color: lightgrey;
+    width: 300px;
+    float: right;
+    text-decoration: none;
+    text-fill-color: black;
+}
+
+.dropdown-content:hover {
+    background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.top-button {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: pink;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 20px;
+    /* Increase font size */
+    font-family: Chalkboard;
+}
+
+.top-button:hover {
+    background-color: deeppink;
+}
+
+.readmore-button {
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    color: white;
+    /* Text color */
+    border: None;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 20px;
+    /* Increase font size */
+    top: 10px;
+    width: 200px;
+    font-family: Chalkboard;
+    margin-bottom: 10px;
+    background-color: deepskyblue;
+}
+
+.readmore-button:hover {
+    background-color: darkcyan;
+}
+
+.time-line {
+    left: 20px;
+    float: right;
+    margin-top: 30px;
+}

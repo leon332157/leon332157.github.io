@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html id="html" style="height: 100%;width: 100%;
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The News Bowl</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="zenscroll.js"></script>
+    <link rel="stylesheet" href="global.css">
+    <script src="global.js"></script>
+    <link rel="shortcut icon" href="logo.png">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114316199-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114316199-1');
+    </script>
+</head>
+<body> <!style="min-height: 100%; min-width: 100%">
+<button onclick="topFunction()" class="top-button" title="Go to top">Back to top</button>
+<header>
+    <div align="Middle"><h1 class="title">The News Bowl</h1>
+        <ul class="head_nav">
+            <li class="head_nav_li">
+                <button onclick="reDirect('index.html')" class="nav">Home</button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('article.html')" class="nav">
+                    Articles
+                </button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('gallery.html')" class="nav"
+                        style="font-size: medium;"> Gallery
+                </button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('index.html')" class="nav"
+                        style="font-size: medium;"> Videos
+                </button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('http://www.instagram.com/chenerytrialb')" class="nav"> Instagram</button>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div style="float: right">
+        <a id="follow" href="https://twitter.com/CheneryTrialB?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+           data-size="small"
+           data-dnt="true" data-show-count="false">Follow @CheneryTrialB</a>
+    </div>
+</header>
+<div class="main">
+    <h4 align="center">By Sean</h4>
+    <div style="text-align:left;font-size: 20px;background-color: skyblue;border-radius: 50px;padding: 10px;padding-top:20px;font-family: Chalkboard">
+        <h4 align="center">It's the 1930’s at the height of the Great Depression. Money is scarce because there are not
+            many jobs. The
+            Dust
+            Bowl crisis has caused many people to move west in search of jobs. Even though California has great weather
+            and
+            plenty of livestock and agriculture, most people are so poor that buying food is a luxury. People have to
+            come
+            up with creative ways to eat cheaply. Here are some recipe ideas that are inexpensive and delicious.
+        </h4>
+        <h5 align="center">The Poor Man’s Meal - Potatoes and Hot Dogs:
+        </h5>
+        Peel and cube a potato, then fry it in a pan with oil and chopped onions until they brown and soften. Then add
+        slices of hot dog, cook a few minutes more, and serve.
+        <br>
+        <br>
+        <div align="left">
+            <img style="border-radius: 20px" src="eat2.jpg" width="400" height="300">
+        </div>
+        <h5 align="center">Creamed Chipped Beef:</h5>
+        Melt 2 tablespoons of butter in a pot over medium heat and add 2 tablespoons of flour to make a roux. Slowly
+        whisk in 1.5 cups of milk until it thickens and boils. Later add 8 ounces of dried beef (like Hormel). Serve
+        over toast.
+        <div align="left>">
+            <br>
+            <img src="eat1.jpg" style="border-radius: 20px" width="400" height="300">
+        </div>
+        <h5 align="center">Hoover Steak:</h5>
+        <br>
+        Take a 16-ounce box of noodles like macaroni or spaghetti. While that's on the stove, slice hot dogs into round
+        shapes. Drain the pasta when it’s almost done and return to the pot; drop in the sliced hot dogs. Add two cans
+        of stewed tomatoes and one can of corn or peas (with liquid) to the pot. Bring the mixture to a boil and then
+        simmer until the pasta is finished cooking.
+        <br>
+        <div align="left">
+            <br>
+            <img style="border-radius: 20px" src="eat3.jpg" width="460" height="300">
+            <br>
+        </div>
+        <br>
+    </div>
+    <br>
+    <button class="readmore-button" onclick="Back()">Back</button>
+</div>
+</body>
+</html>

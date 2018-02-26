@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="zenscroll.js"></script>
+    <link href="global.css" type="text/css" rel="stylesheet">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link rel="shortcut icon" href="logo.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114316199-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114316199-1');
+    </script>
+</head>
+
+<body>
+    <button onclick="topFunction()" class="top-button" title="Go to top">Back to top</button>
+    <header>
+        <div align="Middle">
+            <h1 class="title">The News Bowl</h1>
+            <ul class="head_nav">
+                <li class="head_nav_li">
+                    <button onclick="reDirect('index.html')" class="nav">Home</button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('article.html')" class="nav">
+                        Articles
+                    </button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('gallery.html')" class="nav" style="font-size: medium;"> Gallery
+                    </button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('index.html.')" class="nav" style="font-size: medium;"> Videos
+                    </button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('http://www.instagram.com/chenerytrialb')" class="nav"> Instagram</button>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div style="float: right">
+            <a id="follow" href="https://twitter.com/CheneryTrialB?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small"
+                data-dnt="true" data-show-count="false">Follow @CheneryTrialB</a>
+        </div>
+    </header>
+    <div class="main">
+        <div class="time-line">
+            <a class="twitter-timeline" data-height="500" data-width=150 data-dnt="true" href="https://twitter.com/CheneryTrialB?ref_src=twsrc%5Etfw">Tweets by CheneryTrialB
+            </a>
+        </div>
+        <div class="articles-container">
+            <div style="font-family:'Times New Roman';background-color: skyblue;width: 80%;border-radius: 50px;text-align: left;padding: 20px">
+                <h3>Max Bros Film</h3>
+                <h4>By Patrick</h4>
+                <button onclick="reDirect('film.html');" class="readmore-button">Readmore</button>
+                <br>
+                <br>
+                <h3>1930s fashion: What did people wear?</h3>
+                <h4>By Alana</h4>
+                <button onclick="reDirect('wear.html');" class="readmore-button">Readmore</button>
+                <h3>A Newer New Deal?</h3>
+                <h4>By Sam</h4>
+                <button onclick="reDirect('new_deal.html');" class="readmore-button">Readmore</button>
+                <br>
+                <br>
+                <h3>Do You Need Help Decorating Your Home?</h3>
+                <h4>By Maddie</h4>
+                <button onclick="reDirect('home.html');" class="readmore-button">Readmore</button>
+                <br>
+                <br>
+                <h3>What do people eat?</h3>
+                <h4>By Sean</h4>
+                <button onclick="reDirect('eat.html');" class="readmore-button">Readmore</button>
+                <h3>Snow White And The Seven Dwarfs- Disney’s Folly?</h3>
+                <button onclick="reDirect('snowwhite.html')" class="readmore-button">Readmore</button>
+                <h3>The The Crime and Violence Rate in the Great Depression</h3>
+                <h4>By </h4>
+                <button onclick="reDirect('snowwhite.html')" class="readmore-button">Readmore</button>
+            </div>
+        </div>
+    </div>
+    <script src="global.js"></script>
+</body>
+
+</html>
