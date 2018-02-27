@@ -17,8 +17,7 @@ function topFunction() {
 }
 
 function Back() {
-    window.history.back()
-
+    reDirect('index.html')
 }
 
 function reDirect(url) {
