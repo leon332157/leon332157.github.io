@@ -10,10 +10,18 @@ https://instawidget.net/howtouse
 
 https://dev.twitter.com/web/embedded-tweets/css
 
-### need fix
-each article
-interview
+### Need Fix
+crime
+ride on rails
 
-## done 
+## Not Sure
+audio? video?
+
+## Done 
 gallery
 police
+interview
+whoswho
+
+## Help me
+check if each article is in article page
