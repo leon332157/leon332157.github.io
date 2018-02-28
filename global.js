@@ -41,3 +41,6 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
     var timeline = document.getElementsByClassName("time-line")[0];;
     timeline.style.display = "none";
 }
+var folow=document.getElementById("follow");
+console.log(folow);
+folow.href="https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
