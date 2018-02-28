@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html id="html" style="height: 100%;width: 100%;
-">
+<html id="html" style="width:100%;height:100%">
 
 <head>
     <meta charset="UTF-8">
@@ -25,53 +24,54 @@
     </script>
 </head>
 
-<body>
-<!style="min-height: 100%; min-width: 100%">
-<button onclick="topFunction()" class="top-button" title="Go to top">Back to top</button>
-<header>
-    <div align="Middle">
-        <h1 class="title">The News Bowl</h1>
-        <ul class="head_nav">
-            <li class="head_nav_li">
-                <button onclick="reDirect('index.html')" class="nav">Home</button>
-            </li>
-            <li class="head_nav_li">
-                <button onclick="reDirect('article.html')" class="nav">
-                    Articles
-                </button>
-            </li>
-            <li class="head_nav_li">
-                <button onclick="reDirect('gallery.html')" class="nav" style="font-size: medium;"> Gallery
-                </button>
-            </li>
-            <li class="head_nav_li">
-                <button onclick="reDirect('video.html')" class="nav" style="font-size: medium;"> Videos
-                </button>
-            </li>
-            <li class="head_nav_li">
-                <button onclick="reDirect('http://www.instagram.com/chenerytrialb')" class="nav"> Instagram</button>
-            </li>
-        </ul>
-    </div>
-    <br>
-    <div style="float: right">
-        <a id="follow" href="https://twitter.com/CheneryTrialB?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-           data-size="small"
-           data-dnt="true" data-show-count="false">Follow @CheneryTrialB</a>
-    </div>
-</header>
-<div class="main">
-    <div style="text-align:center;font-size: 20px;background-color: skyblue;border-radius: 50px;padding: 10px;padding-top:20px;font-family: Chalkboard">
-        <h3>Feb 26th</h3>
-        <audio preload="auto" controls>
-            <source src="Mock_Trial_Show_02-26-2018_3.mp4" type="audio/mp4">
-        </audio>
+<body style="min-height: 100%; min-width: 100%">
+    <button onclick="topFunction()" class="top-button" title="Go to top">Back to top</button>
+    <header>
+        <div align="Middle">
+            <h1 class="title">The News Bowl</h1>
+            <ul class="head_nav">
+                <li class="head_nav_li">
+                    <button onclick="reDirect('index.html')" class="nav">Home</button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('article.html')" class="nav">
+                        Articles
+                    </button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('gallery.html')" class="nav" style="font-size: medium;"> Gallery
+                    </button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('video.html')" class="nav" style="font-size: medium;"> Videos
+                    </button>
+                </li>
+                <li class="head_nav_li">
+                    <button onclick="reDirect('http://www.instagram.com/chenerytrialb')" class="nav"> Instagram</button>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div style="float: right">
+            <a id="follow" href="https://twitter.com/CheneryTrialB?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small"
+                data-dnt="true" data-show-count="false">Follow @CheneryTrialB</a>
+        </div>
+    </header>
+    <div class="main" id="main">
+        <div style="text-align:center;font-size: 20px;background-color: skyblue;border-radius: 50px;padding: 10px;padding-top:20px;font-family: Chalkboard;margin-left:10px;margin-right:10px">
+            <h3>Feb 26th</h3>
+            <audio preload="auto" controls>
+                <source src="Mock_Trial_Show_02-26-2018_3.mp4" type="audio/mp4">
+            </audio>
+        </div>
+        <video id="v1" src="b.mp4" controls=""></video>
+
+        <!--iframe style="width: 100%" src="https://www.youtube.com/embed/hZUaXlZiQOE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe-->
     </div>
     <br>
     <button class="readmore-button" onclick="Back()">Back</button>
 
-</div>
-<script src="global.js"></script>
+    <script src="global.js"></script>
 </body>
-
 </html>

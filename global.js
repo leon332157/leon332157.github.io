@@ -41,6 +41,18 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
     var timeline = document.getElementsByClassName("time-line")[0];;
     timeline.style.display = "none";
 }
-var folow=document.getElementById("follow");
-console.log(folow);
-folow.href="https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
+var follow = document.getElementById("follow");
+var v1 = document.getElementById("v1")
+function change_href() {
+    follow.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
+}
+html_width=document.getElementById("html").offsetWidth
+if (follow != null) { change_href(); }
+var doc_width = $(window).width()
+if (v1 != null) {v1.width=doc_width-100;
+    v1.style.margin = "50px";
+    v1.style.alignContent="center"
+}
+
+var div_width="width:" + html_width+"px"
+document.getElementById("main").style = div_width
