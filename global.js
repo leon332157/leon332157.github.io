@@ -33,26 +33,31 @@ function reDirect(url) {
     }
     // All other browsers can use the standard window.location.href (they don't lose HTTP_REFERER like Internet Explorer 8 & lower does)
     else {
-        window.location.href = url;
+        if (url != 'http://www.instagram.com/chenerytrialb'){
+            window.location.href = url
+        }
+        else {
+            window.open(url);
+        }
     }
 }
+    if (navigator.userAgent.indexOf('iPhone') != -1) {
+        var timeline = document.getElementsByClassName("time-line")[0];;
+        timeline.style.display = "none";
+    }
+    var follow = document.getElementById("follow");
+    var v1 = document.getElementById("v1")
+    function change_href() {
+        follow.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
+    }
+    html_width = document.getElementById("html").offsetWidth
+    if (follow != null) { change_href(); }
+    var doc_width = $(window).width()
+    if (v1 != null) {
+        v1.width = doc_width - 100;
+        v1.style.margin = "50px";
+        v1.style.alignContent = "center"
+    }
 
-if (navigator.userAgent.indexOf('iPhone') != -1) {
-    var timeline = document.getElementsByClassName("time-line")[0];;
-    timeline.style.display = "none";
-}
-var follow = document.getElementById("follow");
-var v1 = document.getElementById("v1")
-function change_href() {
-    follow.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
-}
-html_width=document.getElementById("html").offsetWidth
-if (follow != null) { change_href(); }
-var doc_width = $(window).width()
-if (v1 != null) {v1.width=doc_width-100;
-    v1.style.margin = "50px";
-    v1.style.alignContent="center"
-}
-
-var div_width="width:" + html_width+"px"
-document.getElementById("main").style = div_width
+    var div_width = "width:" + html_width + "px"
+    document.getElementById("main").style = div_width
