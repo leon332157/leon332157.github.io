@@ -1,3 +1,9 @@
+ua = navigator.userAgent.toLowerCase()
+isIE = ua.indexOf('msie') !== -1
+if (isIE){
+  alert("Please use Google Chrome or Firefox for better view!")
+  console.log("IE")
+}
 window.onscroll = function () {
     scrollFunction()
 };
@@ -22,8 +28,6 @@ function Back() {
 }
 
 function reDirect(url) {
-    var ua = navigator.userAgent.toLowerCase(),
-        isIE = ua.indexOf('msie') !== -1,
         version = parseInt(ua.substr(4, 2), 10);
     // Internet Explorer 8 and lower
     if (isIE && version < 9) {
@@ -49,14 +53,16 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
 }
 var follow = document.getElementById("follow");
 var v1 = document.getElementById("v1");
-
-function change_href() {
-    follow.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
+var twitter_timeline=ddocument.getElementsByClassName("twitter-timeline")
+console.log(twitter_timeline)
+if (twitter_timeline!=null){change_href(twitter_timeline)}
+function change_href(object) {
+    object.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
 }
 
 html_width = document.getElementById("html").offsetWidth;
 if (follow != null) {
-    change_href();
+    change_href(follow);
 }
 var doc_width = $(window).width();
 if (v1 != null) {
