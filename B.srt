@@ -1,0 +1,236 @@
+﻿1
+00:00:00,030 --> 00:00:04,740
+breaking news<font color="#CCCCCC"> a murder</font><font color="#E5E5E5"> has</font><font color="#CCCCCC"> been</font>
+
+2
+00:00:02,280 --> 00:00:08,730
+discovered at Salinas Valley<font color="#E5E5E5"> on August</font>
+
+3
+00:00:04,740 --> 00:00:11,070
+16 1930<font color="#E5E5E5"> at 4:20 p.m.</font><font color="#CCCCCC"> during the</font><font color="#E5E5E5"> time the</font>
+
+4
+00:00:08,730 --> 00:00:14,160
+body was<font color="#E5E5E5"> discovered</font><font color="#CCCCCC"> a group of men were</font>
+
+5
+00:00:11,070 --> 00:00:18,090
+trying<font color="#E5E5E5"> to pursue a murder murder of</font>
+
+6
+00:00:14,160 --> 00:00:21,330
+<font color="#E5E5E5">Curly's Tyler's wife they which they</font>
+
+7
+00:00:18,090 --> 00:00:22,859
+suspected<font color="#E5E5E5"> to be mr. Lenny smalls</font><font color="#CCCCCC"> the</font>
+
+8
+00:00:21,330 --> 00:00:26,250
+reason<font color="#E5E5E5"> for the suspicion is that</font>
+
+9
+00:00:22,859 --> 00:00:28,170
+<font color="#CCCCCC">Curley's wife had a</font><font color="#E5E5E5"> broken neck and mr.</font>
+
+10
+00:00:26,250 --> 00:00:28,830
+<font color="#CCCCCC">Ling small being known for his brute</font>
+
+11
+00:00:28,170 --> 00:00:30,900
+strength
+
+12
+00:00:28,830 --> 00:00:34,980
+points all the evidence toward mr.
+
+13
+00:00:30,900 --> 00:00:38,910
+<font color="#E5E5E5">Small's the body was identified as mr.</font>
+
+14
+00:00:34,980 --> 00:00:41,640
+Lenny smalls<font color="#CCCCCC"> he he was over six feet</font><font color="#E5E5E5"> he</font>
+
+15
+00:00:38,910 --> 00:00:45,800
+was well over<font color="#CCCCCC"> six feet tall and had a</font>
+
+16
+00:00:41,640 --> 00:00:45,800
+<font color="#E5E5E5">gunshot wound on the back</font><font color="#CCCCCC"> of his</font><font color="#E5E5E5"> head</font>
+
+17
+00:00:46,610 --> 00:00:52,020
+the bullet<font color="#E5E5E5"> shell found</font><font color="#CCCCCC"> here at the</font><font color="#E5E5E5"> body</font>
+
+18
+00:00:49,410 --> 00:00:55,920
+was<font color="#E5E5E5"> identified to</font><font color="#CCCCCC"> be used by the gun</font>
+
+19
+00:00:52,020 --> 00:00:59,579
+stolen<font color="#E5E5E5"> for</font><font color="#CCCCCC"> Miss mr. Carson Smith mr.</font>
+
+20
+00:00:55,920 --> 00:01:01,350
+<font color="#E5E5E5">Kirk mr. curly tyler and mr. Carson</font>
+
+21
+00:00:59,579 --> 00:01:04,080
+Smith had<font color="#E5E5E5"> to form the sheriff that</font>
+
+22
+00:01:01,350 --> 00:01:07,770
+George Milton<font color="#E5E5E5"> book was the one who shot</font>
+
+23
+00:01:04,080 --> 00:01:10,110
+mr. Small's<font color="#E5E5E5"> after miss after mr. slim</font>
+
+24
+00:01:07,770 --> 00:01:12,900
+Johnson and mr.<font color="#E5E5E5"> George Milton went to a</font>
+
+25
+00:01:10,110 --> 00:01:15,119
+local<font color="#CCCCCC"> bar to have a</font><font color="#E5E5E5"> drink the police had</font>
+
+26
+00:01:12,900 --> 00:01:18,600
+enough evidence<font color="#CCCCCC"> to perform an arrest on</font>
+
+27
+00:01:15,119 --> 00:01:20,820
+on George Milton<font color="#E5E5E5"> and he is on trial now</font>
+
+28
+00:01:18,600 --> 00:01:23,790
+for first-degree<font color="#CCCCCC"> murder and back to you</font>
+
+29
+00:01:20,820 --> 00:01:25,530
+<font color="#CCCCCC">Jon George Melton's</font><font color="#E5E5E5"> a migrant worker</font><font color="#CCCCCC"> as</font>
+
+30
+00:01:23,790 --> 00:01:28,320
+<font color="#CCCCCC">may accuse the first-degree murder of</font>
+
+31
+00:01:25,530 --> 00:01:31,159
+<font color="#E5E5E5">his friend Lenny small who was a maggot</font>
+
+32
+00:01:28,320 --> 00:01:33,960
+work<font color="#CCCCCC"> information</font><font color="#E5E5E5"> continues</font><font color="#CCCCCC"> to unfold</font>
+
+33
+00:01:31,159 --> 00:01:36,090
+<font color="#E5E5E5">showing</font><font color="#CCCCCC"> evidence that raises</font><font color="#E5E5E5"> suspicions</font>
+
+34
+00:01:33,960 --> 00:01:39,329
+<font color="#CCCCCC">that George is responsible for</font><font color="#E5E5E5"> Lenny</font>
+
+35
+00:01:36,090 --> 00:01:42,299
+smalls death George<font color="#E5E5E5"> Miller</font><font color="#CCCCCC"> and Lenny</font>
+
+36
+00:01:39,329 --> 00:01:45,090
+smalls<font color="#E5E5E5"> were close friends</font><font color="#CCCCCC"> that were</font>
+
+37
+00:01:42,299 --> 00:01:48,600
+<font color="#CCCCCC">traveling the country</font><font color="#E5E5E5"> looking for</font><font color="#CCCCCC"> a job</font>
+
+38
+00:01:45,090 --> 00:01:51,329
+before they<font color="#CCCCCC"> found a job on the honor</font>
+
+39
+00:01:48,600 --> 00:01:54,439
+ranch<font color="#E5E5E5"> in Salinas Valley Valley where</font>
+
+40
+00:01:51,329 --> 00:01:57,240
+they worked for $50 a month
+
+41
+00:01:54,439 --> 00:02:00,140
+<font color="#E5E5E5">Lenny smalls has a intellectual</font>
+
+42
+00:01:57,240 --> 00:02:00,140
+disability
+
+43
+00:02:00,420 --> 00:02:08,160
+and was taken care of by<font color="#CCCCCC"> his aunt in</font>
+
+44
+00:02:03,720 --> 00:02:10,380
+Auburn California<font color="#E5E5E5"> until she died after</font>
+
+45
+00:02:08,160 --> 00:02:14,130
+<font color="#CCCCCC">his aunt died George Nolan took</font><font color="#E5E5E5"> full</font>
+
+46
+00:02:10,380 --> 00:02:16,620
+responsibility of money when he<font color="#CCCCCC"> was big</font>
+
+47
+00:02:14,130 --> 00:02:19,070
+and<font color="#E5E5E5"> muscular and often had</font><font color="#CCCCCC"> trouble</font>
+
+48
+00:02:16,620 --> 00:02:24,150
+controlling<font color="#CCCCCC"> his</font><font color="#E5E5E5"> strength the accident</font>
+
+49
+00:02:19,070 --> 00:02:26,640
+<font color="#E5E5E5">only broke and broke his</font><font color="#CCCCCC"> co-workers</font>
+
+50
+00:02:24,150 --> 00:02:30,240
+hands and his wife's neck and killed
+
+51
+00:02:26,640 --> 00:02:33,390
+lots of animals Georgia<font color="#E5E5E5"> Mellon was</font>
+
+52
+00:02:30,240 --> 00:02:35,400
+accused of<font color="#E5E5E5"> murdering</font><font color="#CCCCCC"> Lennie small the</font>
+
+53
+00:02:33,390 --> 00:02:37,620
+trial will take<font color="#CCCCCC"> place on</font><font color="#E5E5E5"> March 1st and</font>
+
+54
+00:02:35,400 --> 00:02:41,400
+the<font color="#E5E5E5"> following people are the prosecution</font>
+
+55
+00:02:37,620 --> 00:02:44,190
+witnesses<font color="#E5E5E5"> John Carlson marine</font><font color="#CCCCCC"> Chuck</font>
+
+56
+00:02:41,400 --> 00:02:46,500
+Curley<font color="#E5E5E5"> and the following people the</font>
+
+57
+00:02:44,190 --> 00:02:50,700
+following<font color="#CCCCCC"> people are on the defense team</font>
+
+58
+00:02:46,500 --> 00:02:53,989
+or the defense witness is Josiah<font color="#E5E5E5"> candy</font>
+
+59
+00:02:50,700 --> 00:02:53,989
+slim Frank and George
+
