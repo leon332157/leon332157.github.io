@@ -53,10 +53,10 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
 }
 var follow = document.getElementById("follow");
 var v1 = document.getElementById("v1");
-var twitter_timeline=document.getElementsByClassName("twitter-timeline")
-console.log(twitter_timeline)
+var twitter_timeline=document.getElementsByClassName("twitter-timeline");
 if (twitter_timeline!=null){change_href(twitter_timeline)}
 function change_href(object) {
+    console.log("href changed");
     object.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
 }
 
