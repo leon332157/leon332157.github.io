@@ -53,7 +53,7 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
 }
 var follow = document.getElementById("follow");
 var v1 = document.getElementById("v1");
-var twitter_timeline=ddocument.getElementsByClassName("twitter-timeline")
+var twitter_timeline=document.getElementsByClassName("twitter-timeline")
 console.log(twitter_timeline)
 if (twitter_timeline!=null){change_href(twitter_timeline)}
 function change_href(object) {
