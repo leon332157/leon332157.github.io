@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html id="html" style="height: 100%;width: 100%;
+">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The News Bowl</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="zenscroll.js"></script>
+    <link rel="stylesheet" href="global.css">
+    <link rel="shortcut icon" href="logo.png">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114316199-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114316199-1');
+    </script>
+    <link rel="stylesheet" href="whoswho.css">
+</head>
+
+<body>
+<!style="min-height: 100%; min-width: 100%">
+<button onclick="topFunction()" class="top-button" title="Go to top">Back to top</button>
+<header>
+    <div align="Middle">
+        <h1 class="title">The News Bowl</h1>
+        <ul class="head_nav">
+            <li class="head_nav_li">
+                <button onclick="reDirect('index.html')" class="nav">Home</button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('article.html')" class="nav">
+                    Articles
+                </button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('gallery.html')" class="nav" style="font-size: medium;"> Gallery
+                </button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('video.html')" class="nav" style="font-size: medium;"> Videos
+                </button>
+            </li>
+            <li class="head_nav_li">
+                <button onclick="reDirect('http://www.instagram.com/chenerytrialb')" class="nav"> Instagram</button>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div style="float: right">
+        <a id="follow" href="https://twitter.com/CheneryTrialB?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+           data-size="small"
+           data-dnt="true" data-show-count="false">Follow @CheneryTrialB</a>
+    </div>
+</header>
+
+<div class="main">
+    <div class="contan">
+        <h3 class="art_title">George’s Boss Testifies Against Him
+        </h3>
+        <h4 class="art_title">By Ian J</h4>
+        <div class="art_main">Today John Tyler testified in court on the behalf of the prosecution at 9am on thursday.
+            John Tyler is the owner and boss at the ranch Lennie and George worked at. He owned the ranch since he was
+            17, and Curley is his only living family member. Mr. Tyler claims that in the short interaction he had with
+            them that George was controlling of Lennie and very inconsiderate, he claims that he mistreated his son’s
+            wife and Lennie. When Mr. Tyler was cross examined by the defense he was asked if the short interaction was
+            enough to justify George killing Lennie in cold blood. The defence was sure to get exactly what they wanted
+            with simple yes or no answers but took it a little to far. He tried to convey that George didn’t really like
+            Lennie and wasn’t really his friend.
+        </div>
+
+        </div>
+        <br>
+    </div>
+    <br>
+    <button class="readmore-button" onclick="Back()">Back</button>
+
+</div>
+<script src="global.js"></script>
+</body>
+</html>
