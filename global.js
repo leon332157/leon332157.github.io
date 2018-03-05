@@ -77,7 +77,7 @@ var sorce = document.createElement("a");
 sorce.classList.add("readmore-button");
 sorce.href = "https://github.com/leon332157/leon332157.github.io";
 sorce.text = "Sorcecode";
-sorce.style = "text-decoration: none !important";
+sorce.style = "text-decoration: none";
 document.body.appendChild(document.createElement("br"));
 document.body.appendChild(document.createElement("br"));
 document.body.appendChild(sorce);
