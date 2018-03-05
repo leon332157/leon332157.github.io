@@ -1,14 +1,15 @@
 ua = navigator.userAgent.toLowerCase()
 isIE = ua.indexOf('msie') !== -1
-if (isIE){
-  alert("Please use Google Chrome or Firefox for better view!")
-  console.log("IE")
+if (isIE) {
+    alert("Please use Google Chrome or Firefox for better view!")
+    console.log("IE")
 }
 window.onscroll = function () {
     scrollFunction()
 };
-var path=window.location.pathname.split("/");
-var path_last=path[path.length-1];
+var path = window.location.pathname.split("/");
+var path_last = path[path.length - 1];
+
 function scrollFunction() {
     if ($(document).scrollTop() < 20) {
         document.getElementsByClassName("top-button")[0].style.display = "none";
@@ -24,11 +25,11 @@ function topFunction() {
 }
 
 function Back() {
-        reDirect('index.html')
+    reDirect('index.html')
 }
 
 function reDirect(url) {
-        version = parseInt(ua.substr(4, 2), 10);
+    version = parseInt(ua.substr(4, 2), 10);
     // Internet Explorer 8 and lower
     if (isIE && version < 9) {
         var link = document.createElement('a');
@@ -54,8 +55,11 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
 var follow = document.getElementById("follow");
 var v1 = document.getElementById("v1");
 var v2 = document.getElementById("v2");
-var twitter_timeline=document.getElementsByClassName("twitter-timeline");
-if (twitter_timeline!=null){change_href(twitter_timeline)}
+var twitter_timeline = document.getElementsByClassName("twitter-timeline");
+if (twitter_timeline != null) {
+    change_href(twitter_timeline)
+}
+
 function change_href(object) {
     object.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
 }
@@ -88,4 +92,7 @@ document.body.appendChild(document.createElement("br"));
 document.body.appendChild(sorce);
 document.body.appendChild(document.createElement("br"));
 document.body.appendChild(document.createElement("br"));
-
+var timeline = document.getElementById("timeline");
+if (timeline != null) {
+    timeline.setAttribute("data-height", "1000")
+}
