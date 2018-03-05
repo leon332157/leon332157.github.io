@@ -53,10 +53,10 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
 }
 var follow = document.getElementById("follow");
 var v1 = document.getElementById("v1");
+var v2 = document.getElementById("v2");
 var twitter_timeline=document.getElementsByClassName("twitter-timeline");
 if (twitter_timeline!=null){change_href(twitter_timeline)}
 function change_href(object) {
-    console.log("href changed");
     object.href = "https://twitter.com/Chenerytrial18?ref_src=twsrc%5Etfw";
 }
 
@@ -64,15 +64,20 @@ html_width = document.getElementById("html").offsetWidth;
 if (follow != null) {
     change_href(follow);
 }
+var div_width = "width:" + html_width + "px";
 var doc_width = $(window).width();
 if (v1 != null) {
+    document.getElementById("main").style = div_width;
     v1.width = doc_width - 100;
     v1.style.margin = "50px";
     v1.style.alignContent = "center"
 }
-
-var div_width = "width:" + html_width + "px";
-//document.getElementById("main").style = div_width;
+var doc_width = $(window).width();
+if (v2 != null) {
+    v2.width = doc_width - 100;
+    v2.style.margin = "50px";
+    v2.style.alignContent = "center"
+}
 var sorce = document.createElement("a");
 sorce.classList.add("readmore-button");
 sorce.href = "https://github.com/leon332157/leon332157.github.io";
