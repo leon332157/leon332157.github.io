@@ -1,14 +1,13 @@
-ua = navigator.userAgent.toLowerCase()
-isIE = ua.indexOf('msie') !== -1
+ua = navigator.userAgent.toLowerCase();
+isIE = ua.indexOf('msie') !== -1;
 if (isIE) {
-    alert("Please use Google Chrome or Firefox for better view!")
+    alert("Please use Google Chrome or Firefox for better view!");
     console.log("IE")
 }
 window.onscroll = function () {
     scrollFunction()
 };
 var path = window.location.pathname.split("/");
-var path_last = path[path.length - 1];
 
 function scrollFunction() {
     if ($(document).scrollTop() < 20) {
