@@ -7,7 +7,6 @@ if (isIE) {
 window.onscroll = function () {
     scrollFunction()
 };
-var path = window.location.pathname.split("/");
 
 function scrollFunction() {
     if ($(document).scrollTop() < 20) {
@@ -54,6 +53,7 @@ if (navigator.userAgent.indexOf('iPhone') != -1) {
 var follow = document.getElementById("follow");
 var v1 = document.getElementById("v1");
 var v2 = document.getElementById("v2");
+var v3 = document.getElementById("v3");
 var twitter_timeline = document.getElementsByClassName("twitter-timeline");
 if (twitter_timeline != null) {
     change_href(twitter_timeline)
@@ -75,11 +75,15 @@ if (v1 != null) {
     v1.style.margin = "50px";
     v1.style.alignContent = "center"
 }
-var doc_width = $(window).width();
 if (v2 != null) {
     v2.width = doc_width - 100;
     v2.style.margin = "50px";
     v2.style.alignContent = "center"
+}
+if (v3 != null) {
+    v3.width = doc_width - 100;
+    v3.style.margin = "50px";
+    v3.style.alignContent = "center"
 }
 var sorce = document.createElement("a");
 sorce.classList.add("readmore-button");
@@ -91,7 +95,6 @@ document.body.appendChild(document.createElement("br"));
 document.body.appendChild(sorce);
 document.body.appendChild(document.createElement("br"));
 document.body.appendChild(document.createElement("br"));
-var timeline = document.getElementById("timeline");
 if (timeline != null) {
     timeline.setAttribute("data-height", "1000")
 }
