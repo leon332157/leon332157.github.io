@@ -4,6 +4,5 @@ description: Welcome to this sample project
 images: ["/images/sample.jpg"]
 ---
 
-Hello, 
+Hello,
 This is still WIP :)
-
