@@ -1,17 +1,45 @@
 baseURL: https://leon3321.is-a.dev
 languageCode: en-us
-title: My New Hugo Site
+title: leon332157
 theme: ["PaperMod"]
 
 enableEmoji: true
+enableGitInfo: true
 
 params:
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: Hi, this is still WIP 
+    Content: >
+      I'm Leon, a Computer Science/Data Science student at UMass Amherst.
+      My site is still a work in progress, but feel free to look around.
 
   socialIcons: # optional
-    - name: "<platform>"
-      url: "<link>"
-    - name: "<platform 2>"
-      url: "<link2>"
+    - name: Linkedin
+      url: "https://www.linkedin.com/in/leon3321/"
+    - name: GitHub
+      url: "https://github.com/leon332157"
+  assets:
+    disableHLJS: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: nord
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+menus:
+  main:
+    - name: About
+      pageRef: /about
+    - name: Blogs
+      pageRef: /blog
+    - name: Writeups
+      pageRef: /writeups
+    - name: Projects
+      pageRef: /projects

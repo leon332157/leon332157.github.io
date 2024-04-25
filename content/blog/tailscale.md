@@ -1,6 +1,6 @@
 +++
 title = "My first time experience with Tailscale VPN"
-
+summary = "My motivation to try Tailscale and how it improves my workflow"
 +++
 
 ## My previous VPN infrastructure

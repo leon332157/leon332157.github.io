@@ -1,19 +1,21 @@
-{{- if not (.Param "hideFooter") }}
+
 <footer class="footer">
     <div id="umaring" style="font-size: medium;"></div>
     <script id="umaring_js" src="https://umaring.mkr.cx/ring.js?id=leon"></script>
     <span>
         Powered by
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a> & 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a> &
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>
     </span>
-    {{ .GitInfo | jsonify }}
-    <span>Hugo version:  {{hugo.Version}}</span>
+    <div style="font-size: x-small;">
+        <span>Hugo version: {{hugo.Version}}</span>
     {{ with .GitInfo }}
-    <p style="font-size: small; color: grey;">Page commit: {{ .AbbreviatedHash }}</p>
-  {{- end }}
+        <p>Page commit: {{ .AbbreviatedHash }}</p>
+    {{- end }}
+    
+    </div>
 </footer>
-{{- end }}
+
 
 {{- if (not site.Params.disableScrollToTop) }}
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
