@@ -28,4 +28,3 @@ I want a piece of mesh VPN software that is easy to deploy and fast, as well as 
 - Setting up tailscale is extremely simple on my devices, including golang based Linux clients, IOS as well as Windows.
 - All my devices have MagicDNS names based on their hostname, so ssh'ing is as simple as typing in "ssh aspire"
 - I also added a subnet router to route traffic to my home network to achieve the same effect as my previous setup.
-![img](tailscale-1.png)
