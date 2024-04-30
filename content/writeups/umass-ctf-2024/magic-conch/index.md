@@ -71,7 +71,7 @@ Looking a the man page of this function:
 
 In othe words, this function creates a large region in memory so that we can treat it as a regular file. This is important because we need to use this chunk of memory to load the dynamic object, and is important later on.
 
-For now, Let's first look at `gen1` function, which takes in a pointer to a symbol I called `enc_bin_start`, this points to a large chunk of data in the .data section of the ELF. Then it takes in another pointer, which appears
+For now, Let's first look at `gen1` function, which takes in a pointer to a symbol I called `enc_bin_start`, this points to a large chunk of data in the .data section of the ELF. Then it takes in another pointer, which appears to be a integer.
 
 ```c
 void *gen1(char *param_1,uint *param_2)
@@ -256,6 +256,7 @@ void main(void)
   exit(1);
 }
 ```
+
 I can infer that this function is executed as the entry point, recall earlier that it wanted to access environment variables?
 
 However this function isn't what we are coming for, next up is the function I called `magic_conch`:
@@ -342,6 +343,7 @@ void magic_conch(int *sockfd) {
   pthread_exit(0);
 }
 ```
+
 </details>
 <br>
 
@@ -416,6 +418,7 @@ void strxor(char *str1, char *str2, char *res, int limit) {
   return;
 }
 ```
+
 Looks like this function takes two strings, XOR them together and writes it back to a char array, simple.
 
 Based on these two functions, we can inferr that the HASH function expects a 32 byte query, splits the query into 2 of 16 bytes chunk, then XORs them together, before sending them to the SHA256 function.
