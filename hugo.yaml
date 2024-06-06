@@ -8,16 +8,23 @@ enableGitInfo: true
 
 params:
   homeInfoParams:
-    Title: Hi, this is still WIP 
-    Content: >
-      I'm Leon, a Computer Science/Data Science student at UMass Amherst.
-      My site is still a work in progress, but feel free to look around.
+    Title: Hi, I'm Leon
+    Content: |-
+      I'm Junior in Computer Science/Data Science at UMass Amherst
 
-  socialIcons: # optional
+      My interests are in DevOps, Infrastructure, Reverse Engineering, Vulnerability Analysis, Computer Networking and Operating Systems
+      
+      Here, I will be sharing my blogs, writeups for CTF, and projects
+      
+      To learn more about me navigate to the [About](/about) page
+
+  socialIcons:
     - name: Linkedin
       url: "https://www.linkedin.com/in/leon3321/"
     - name: GitHub
       url: "https://github.com/leon332157"
+    - name: Email
+      url: "mailto:leon332157@gmail.com"
   assets:
     disableHLJS: true
 
@@ -35,11 +42,15 @@ markup:
 
 menus:
   main:
+    - name: Home
+      URL: /
+      weight: 10
     - name: About
       pageRef: /about
+      weight: 20
     - name: Blogs
       pageRef: /blog
+      weight: 30
     - name: Writeups
       pageRef: /writeups
-    - name: Projects
-      pageRef: /projects
+      weight: 40

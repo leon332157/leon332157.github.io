@@ -1,10 +1,8 @@
-+++
-title = "Magic Conch (rev)"
-
-date = "2024-04-21"
-
-layout = "post"
-+++
+---
+date: "2024-04-21"
+layout: post
+title: Magic Conch (rev)
+---
 
 Magic Conch is a rev challange.
 

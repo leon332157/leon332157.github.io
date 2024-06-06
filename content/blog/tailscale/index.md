@@ -1,7 +1,7 @@
-+++
-title = "My first time experience with Tailscale VPN"
-summary = "My motivation to try Tailscale and how it improves my workflow"
-+++
+---
+summary: My motivation to try Tailscale and how it improves my workflow
+title: My first time experience with Tailscale VPN
+---
 
 ## My previous VPN infrastructure
 
