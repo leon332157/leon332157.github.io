@@ -1,5 +1,1 @@
 TODO:
-Fix post date padding
-Figure out custom CSS
-Finish about section
-Add OSU CTF Write up
