@@ -1,1 +1,5 @@
 TODO:
+add what I recommend reading
+add two proxy server project
+add mytopsongs.pages.dev
+eventually: custom layout
