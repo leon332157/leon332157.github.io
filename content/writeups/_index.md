@@ -11,4 +11,4 @@ layout: single
 
 ### Deadsec CTF 2024
 
-- [Super CPP Calculator](deadsec-ctf-2024/Super-CPP-Calculator/)
+- [Super CPP Calculator](deadsec-ctf-2024/super-cpp-calculator/)
