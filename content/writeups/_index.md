@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 ---
 # Welcome to my writeups
 
@@ -8,3 +8,7 @@ layout: post
 ### UMass CTF 2024
 
 - [Magic Conch](umass-ctf-2024/magic-conch)
+
+### Deadsec CTF 2024
+
+- [Super CPP Calculator](deadsec-ctf-2024/Super-CPP-Calculator/)
