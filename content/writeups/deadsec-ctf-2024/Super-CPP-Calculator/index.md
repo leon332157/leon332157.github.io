@@ -72,7 +72,7 @@ Let's look at the `setnumber_floater` method:
 
 This function looks like a lot of code, but there are a few details:
 
-In line 21-22, we can see that the value of `this+24`, which is the value for the `len` parameter, is the quotient of the two values we put in, with constraints. We can derive the formula:
+In line 21-22, we can see that the value of `this+24`, which is the value for the `len` parameter, is the quotient of the two values we put in, with constraints. We can derive the formula, shout out to my friend [August](https://squirrelly.glykon.cc/):
 
 ```c
 float A = this + 12  0.0 < A < 10.0
