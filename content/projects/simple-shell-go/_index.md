@@ -125,17 +125,17 @@ We can define a data structure to represent each command
 
 ```go
 type Process struct {
-	Cmd      string // the executable name 
-	Args     []string // the full command
-	pipe_in  bool // if the command need to read from a pipe
-	pipe_out bool // if the command need to write to a pipe
-	pipe_r   *os.File // the pipe read end
-	pipe_w   *os.File // the pipe write end
-	execCmd  *exec.Cmd // pointer to the Cmd structure used by exec module
+    Cmd      string // the executable name 
+    Args     []string // the full command
+    pipe_in  bool // if the command need to read from a pipe
+    pipe_out bool // if the command need to write to a pipe
+    pipe_r   *os.File // the pipe read end
+    pipe_w   *os.File // the pipe write end
+    execCmd  *exec.Cmd // pointer to the Cmd structure used by exec module
 }
 ```
 
-#### Parsing input 
+#### Parsing input
 
 Now let's tackle the first chain, which includes 3 pipe symbols.
 
@@ -147,24 +147,24 @@ We can use a nested loop to handle this
 cmd_indep := strings.Split(line, ";")
 for _, indep := range cmd_indep {
     cmd_pipes := strings.Split(indep, "|")
-	for idx, dep_cmds := range cmd_pipes {
+    for idx, dep_cmds := range cmd_pipes {
         // create data structure
         currProcess := Process{}
         args := strings.Fields(dep_cmds)
         // split the command it self into the executable and the arguments 
         currProcess.Cmd = args[0]
         if len(args) > 1 {
-				currProcess.Args = args[1:]
-		} // assign the full args to the struct
+                currProcess.Args = args[1:]
+        } // assign the full args to the struct
 
         currProcess.pipe_out = true 
-		if idx == len(cmd_pipes) - 1 { // if it's the last command in the chain, do not pipe out
-			currProcess.pipe_out = false
-		}
+        if idx == len(cmd_pipes) - 1 { // if it's the last command in the chain, do not pipe out
+            currProcess.pipe_out = false
+        }
 
-		currProcess.pipe_in = false
-		if idx > 0 { // if it's the second or later command, accept input from pipe
-			currProcess.pipe_in = true
+        currProcess.pipe_in = false
+        if idx > 0 { // if it's the second or later command, accept input from pipe
+            currProcess.pipe_in = true
         }
 }
 ```
