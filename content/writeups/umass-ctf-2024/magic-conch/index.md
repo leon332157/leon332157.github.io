@@ -463,6 +463,6 @@ r.interactive()
 
 - After the CTF ended I spoke to the author of the challange and realized that many people may have just cheesed the flag by sending all As and Bs.
 - I also realized that my dump may have been slightly off because my Ghidra was not able to load the symbols correctly.
-- This is one of the only challanges I did, althought I hit unfortunate roadblocks, I was able to pull thru.
+- This is one of the only challanges I did, althought I hit roadblocks, I was able to pull thru.
 
 </details>
