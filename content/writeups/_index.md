@@ -12,3 +12,9 @@ layout: single
 ### Deadsec CTF 2024
 
 - [Super CPP Calculator](deadsec-ctf-2024/super-cpp-calculator/)
+
+### Minuteman CTF 2024 (Author Writeup)
+
+- [Trinity Pre Test](minuteman-ctf-2024/Trinity-Pre-Test/)
+- [Trinity Test](minuteman-ctf-2024/Trinity-Test)
+- [ARMTomic Bomb](minuteman-ctf-2024/armtomic-bomb)
