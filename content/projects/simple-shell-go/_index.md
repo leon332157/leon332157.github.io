@@ -1,6 +1,6 @@
 ---
 title: Simple shell with Go
-summary: what is a shell? what does it do? how does it work?
+summary: What is a shell? What does it do? How does it work?
 ---
 
 After taking CS 377 Operating systems, one of the projects that left an impression was the first and arguably the hardest project: a simple shell which includes pipes
@@ -75,7 +75,7 @@ In this case, when using the "|" sign, you are telling the shell to create a pip
 - Factoring in delimiters like ";" to end the execution chain or the "|" sign to determine if we need to create pipes
 - Create the necessary resources including pipes and duplicating file descriptors, using syscalls like "fork" and "dup"
 
-## Let's do some coding
+### Let's do some coding
 
 #### Printing prompt
 
