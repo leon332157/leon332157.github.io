@@ -222,11 +222,11 @@ if currCmd.pipe_in && prev != nil {
 
 Finally, we can call `currExec.start()` to start the command.
 
-Note that similar to C, we also need to call `wait` to clean up the associated resources so the terminated process does not become zombie, to do that, we can add each `currCmd` into a list, then loop over it to call `currCmd.wait()` Finally, just like the C version, close all the assoiated pipe ends.
+Note that similar to C, we also need to call `wait` to clean up the associated resources so the terminated process does not become zombie, to do that, we can add each `currCmd` into a list, then loop over it to call `currCmd.Wait()` Finally, just like the C version, close all the associated pipe ends.
 
 ```go
 var waitList []Process // the struct we created
-currExec.start()
+currExec.Start()
 
 waitList = append(waitList, currCmd)
 
