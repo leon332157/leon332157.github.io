@@ -212,7 +212,9 @@ I needed to convert the rotation to scalar rotation since there are no vector pa
 Assuming you reached this point, you may see the assembly as such:
 ![hash1](hash1.png)
 
-This sequence will multiply the packed unsigned longs in `ymm0`, the first chunks from what I can tell breaks down the packed values into smaller `xmm` registers, then it uses the constant in `xmm2` to `VectorMultiplyDoubleQuadword`, this will return an unsigned 128bit value in `xmm4`, which is then added to some mask in `xmm5`. I believe there are some LLVM optimizations here that I don't fully understand, but it is cool!
+This sequence will multiply the packed unsigned longs in `ymm0`, the first chunks from what I can tell breaks down the packed values into smaller `xmm` registers.
+Then it uses the constant in `xmm2` to `VectorMultiplyDoubleQuadword`, reference the instruction [here](https://www.felixcloutier.com/x86/pmuludq).
+We need to perform a 64x64bit multiplication, but the instruction only does 32 bit packed multiplication. So the compiler actually needs to break the 64bit unsigned longs into smaller chunks to use the vpmuldq function which are the `vpsllq` and `vpsrlq` instructions you see. In the end, it uses `vpaddq` to add back the lower bits. In all, it computes `((a_hi * b_lo + a_lo * b_hi) << 32) + (a_lo * b_lo)`, which is the same idea as a scalar 64bit multiplication. I believe there are some LLVM optimizations here that I don't fully understand, but it is cool!
 
 Now the rotation function:
 
