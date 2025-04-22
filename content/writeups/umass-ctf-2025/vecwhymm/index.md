@@ -9,6 +9,8 @@ I learned about [zenbleed](https://lock.cmpxchg8b.com/zenbleed.html) from the [L
 
 Then I saw another video by [tsoding](https://www.youtube.com/watch?v=Qzw1m7PweXs), which introduced me to [C3](https://c3-lang.org/) I played with the built-in vector type and realized that it automatically uses AVX instructions where calculations happen. So I decided that I wanted to make a challenge. Entirely based on SIMD instructions and packed values.
 
+If you don't want to read the whole writeup, source code is available [here](https://github.com/leon332157/UMassCTF25/tree/main/vecwhymm)
+
 ## Initial idea
 
 Throwing out some code on [Godbolt](https://godbolt.org/z/YasT6dM6o)
