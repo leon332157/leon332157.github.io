@@ -18,21 +18,20 @@ Throwing out some code on [Godbolt](https://godbolt.org/z/YasT6dM6o)
 ```c
 import std::io;
 
-fn int main()
-{
-uint128 v1 = -1;
-uint128 v2 = -1;
-uint128 v3 = v1 + v2;
+fn int main() {
+    uint128 v1 = -1;
+    uint128 v2 = -1;
+    uint128 v3 = v1 + v2;
 
-uint[<16>] a = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 };
-uint[<16>] b = { 16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1 };
+    uint[<16>] a = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 };
+    uint[<16>] b = { 16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1 };
 
-uint[<16>] c = a * b;
-if (a == (uint[<16>])0) {
-    return a[0];
-} else{
-    return -1;
-}
+    uint[ < 16 > ] c = a * b;
+    if (a == (uint[ < 16 > ]) 0) {
+        return a[0];
+    } else {
+        return -1;
+    }
 }
 ```
 
