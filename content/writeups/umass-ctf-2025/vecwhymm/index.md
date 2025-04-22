@@ -1,6 +1,6 @@
 ---
-title: rev/vecwhymm
-summary:  Hmm, I wonder what happends when you XorMM and whYMM? Why do you wanna use YMM?
+title: vecWhyMM? (rev)
+summary:  Hmm, I wonder what happends when you XorMM and whYMM? Why do you wanna use YMM anyways?
 #draft: true
 ---
 
