@@ -1,6 +1,6 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header" style="display: flex;flex-direction: row;justify-content: space-evenly">
+    <header class="entry-header" style="display: flex;flex-direction: column;justify-content: space-evenly">
         <h1>{{ .Title | markdownify }}</h1>
         {{- if .imageUrl -}}
         {{- $img := "" }}
@@ -13,7 +13,7 @@
                 {{- $processableFormats = $processableFormats | append "webp" -}}
             {{- end -}}
             {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+            {{- if and (in $processableFormats $img.MediaType.SubType) (true)}}
                 {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
                     {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
                 {{- else if .imageHeight }}
@@ -28,7 +28,7 @@
                 height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" style="border-radius:100%"/>
         {{- else }}
         <img draggable="false" src="{{ .imageUrl | absURL }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" style="border-radius:20%" />
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" style="border-radius:20px" />
         {{- end }}
         {{- end }}
     </header>
