@@ -10,13 +10,17 @@ params:
   homeInfoParams:
     Title: Hi, I'm Leon
     Content: |-
-      I'm Junior in Computer Science/Data Science at UMass Amherst
+      I'm currently Junior in Computer Science/Data Science at UMass Amherst, welcome to my personal website!
 
       My interests are in DevOps, Infrastructure, Reverse Engineering, Vulnerability Analysis, Computer Networking and Operating Systems
       
-      Here, I will be sharing my writeups for CTFs and projects as well as my thoughts on various topics
-      
-      To learn more about me navigate to the [About](/about) page
+      In addition, to my studies, I am also interested in teaching, I'm currently an Undergraduate Course Assistant for CS367 (Reverse Engineering)
+
+      To read my teaching philosophy, please click the button above.
+    imageUrl: /headshot.jpg
+    imageHeight: 200
+    imageWidth: 150
+    
 
   socialIcons:
     - name: Linkedin
@@ -45,15 +49,15 @@ menus:
     - name: Home
       URL: /
       weight: 10
-    - name: About
+    - name: Teaching philosophy
       pageRef: /about
       weight: 20
     - name: Projects
       pageRef: /projects
       weight: 30
-    - name: Blogs
-      pageRef: /blog
+    - name: Tech Toolbox
+      pageRef: /toolbox
       weight: 40
-    - name: Writeups
-      pageRef: /writeups
+    - name: Reflection
+      pageRef: /reflection
       weight: 50
