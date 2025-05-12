@@ -1,6 +1,7 @@
 ---
 title: Simple shell with Go
 summary: What is a shell? What does it do? How does it work?
+hidden: true
 ---
 
 After taking CS 377 Operating systems, one of the projects that left an impression was the first and arguably the hardest project: a simple shell which includes pipes

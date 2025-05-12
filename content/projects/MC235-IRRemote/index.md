@@ -1,6 +1,7 @@
 ---
 title: ESP8266 IR Remote
 summary: Lost the remote for a CD Player? No problem, just make your own!
+hidden: true
 ---
 
 ## Introduction

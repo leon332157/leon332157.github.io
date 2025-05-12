@@ -1,6 +1,7 @@
 ---
 title: mytopsongs
 summary: What songs are your favorite on Spotify?
+hidden: true
 ---
 
 Website Link: [mytopsongs.pages.dev])(https://mytopsongs.pages.dev)
