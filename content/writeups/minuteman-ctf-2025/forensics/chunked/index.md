@@ -22,7 +22,7 @@ unzipping the artifact yielded 4 corrupted png images. inclusion of corrupted im
 
 ![part3.png](part3.png)
 
-#### If you can't see the image, you can download the zip file [here](chall.zip)
+#### If you can't see the image, you can download the zip file [challege.zip](chall.zip)
 
 As you can see in the second image, you can see the starting part of the flag. So initially I started using online repairing of png images, which all yielded no results. Was confused and scratching my head.
 
@@ -46,7 +46,7 @@ As we can see here, `pngcheck` showed errors on certain chunks of png.
 
 ### What the heck is a chunk and why is it corrupted?
 
-After some research, and reading [this article](https://medium.com/@0xwan/png-structure-for-beginner-8363ce2a9f73) I can understand the PNG format uses chunks (this is how your images can show up partially in webpages), and that corruption in one chunk can render the image un-showable.
+After some research, and reading [PNG Structure for Beginners](https://medium.com/@0xwan/png-structure-for-beginner-8363ce2a9f73) I can understand the PNG format uses chunks (this is how your images can show up partially in webpages), and that corruption in one chunk can render the image un-showable.
 
 Essentially, on a file level, png may look something like this:
 
