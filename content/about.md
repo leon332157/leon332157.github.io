@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-Hi, I'm Leon, currently a junior in Data Science/Computer Science Minor at UMass Amherst.
+Hi, I'm Leon, I graduated in Data Science/Computer Science Minor at UMass Amherst in 2026.
 
 My current main topic of interest is Reverse Engineering, Vulnerability Analysis, Low level computing, which includes working with X86-64 assembly.
 
